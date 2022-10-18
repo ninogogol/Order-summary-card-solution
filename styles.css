@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #E0E8FF;
+    font-family: 'Red Hat Display', sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/pattern-background-mobile.svg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+}
+
+.main-container {
+    width: 327px;
+    height: 567px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+    border-radius: 20px;
+}
+
+.img-lg {
+    max-width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 29px;
+    text-align: center;
+    color: #1F2E55;
+    margin: 32px 0 16px;
+}
+
+p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #717FA6;
+    margin-bottom: 24px;
+}
+
+.part-2 {
+    width: 279px;
+    height: 81px;
+    background-color: #F7F9FF;
+    border-radius: 11px;
+    margin: 0 auto 32px;
+    display: flex;
+    align-items: center;
+}
+
+.music-icon {
+    margin: 0 20px 0 16px;
+}
+
+.plan {
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1F2E55;
+}
+
+.price-per-year {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #717FA6;
+}
+
+.change {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 17px;
+    text-decoration-line: underline;
+    color: #382AE1;
+    margin-right: 16px;
+}
+
+.change:hover {
+    cursor: pointer;
+    color: #766CF1;
+    text-decoration: none;
+}
+
+button {
+    width: 279px;
+    height: 50px;
+    background-color: #382AE1;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    border-radius: 11px;
+    border: none;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    display: block;
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: #766CF1;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    border-radius: 11px;
+    cursor: pointer;
+}
+
+.cancel-order {
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    color: #717FA6;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.cancel-order:hover {
+    color: #1F2E55;
+    cursor: pointer;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    margin: 16px 0; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+@media only screen and (min-width: 992px) {
+    body {
+        background-image: url('images/pattern-background-desktop.svg');
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+    .main-container {
+        width: 450px;
+        height: 697px;
+    }
+    h1 {
+        font-size: 28px;
+        line-height: 37px;
+    }
+    p {
+        font-size: 16px;
+        line-height: 26px;
+        padding: 0 45px;
+    }
+    .plan {
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .price-per-year {
+        font-size: 16px;
+        line-height: 21px;
+        display: block;
+        width: 117.19px;
+    }
+    .change {
+        font-size: 14px;
+        line-height: 19px;
+        margin: 0 68.81px 24px;
+    }
+    .part-2 {
+        width: 354px;
+        height: 98px;
+    }
+}
