@@ -176,4 +176,7 @@ button:hover {
         width: 354px;
         height: 98px;
     }
+    button {
+        width: 354px;
+    }
 }
